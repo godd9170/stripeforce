@@ -97,6 +97,15 @@
         <type>Text</type>
         <unique>true</unique>
     </fields>
+    <fields>
+        <fullName>Error_Message__c</fullName>
+        <externalId>false</externalId>
+        <label>Error Message</label>
+        <length>32768</length>
+        <required>false</required>
+        <type>LongTextArea</type>
+        <unique>false</unique>
+    </fields>
     <label>Stripe Webhook</label>
     <listViews>
         <fullName>All</fullName>
