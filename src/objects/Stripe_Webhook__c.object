@@ -88,6 +88,15 @@
         <type>Text</type>
         <unique>false</unique>
     </fields>
+    <fields>
+        <fullName>Event_ID__c</fullName>
+        <externalId>false</externalId>
+        <label>Event ID</label>
+        <length>40</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
     <label>Stripe Webhook</label>
     <listViews>
         <fullName>All</fullName>
