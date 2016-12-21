@@ -1,11 +1,23 @@
-Development Fork of StripeForce - A Stripe SDK for the Force.com Platform
-========================================
-The groundwork for this library was done by Ryan Huff. Feel free to use my development fork, but please consider helping to improve the original StripeForce by sending back all significant improvements as pull requests. So much said, here comes the original README content... 
+Getting Setup
+=============
+To get this off the ground you need to first deploy all the classes + objects to your environment with the following utility:
+
 <p>
 <a href="https://githubsfdeploy.herokuapp.com?owner=godd9170&repo=stripeforce">
   <img alt="Deploy to Salesforce"
        src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/src/main/webapp/resources/img/deploy.png">
 </a></p>
+
+Next, in Salesforce, navigate to 'Settings > Develop > Custom Settings > Stripe Settings > Manage'. Add in your stripe keys and set the profile as 'System Administrator'.
+
+Finally Add into the Remote Site Settings `https://api.stripe.com`
+
+You should now have access to 'Charge Stripe Customer' as an Apex action.
+
+Development Fork of StripeForce - A Stripe SDK for the Force.com Platform
+========================================
+The groundwork for this library was done by Ryan Huff. Feel free to use my development fork, but please consider helping to improve the original StripeForce by sending back all significant improvements as pull requests. So much said, here comes the original README content... 
+
 
 Stripe SDK for Force.com
 ========================================
